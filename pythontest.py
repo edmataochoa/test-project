@@ -1,12 +1,11 @@
-# def merge(a, *args):
-#     sequence = ""
-#     if args:
-#         for word in args:
-#             sequence += " " + _
-#         return sequence
-#     else:
-#         return a
-#
-# merge("hey", "you", "there")
+def merge(a, *args):
+    sequence = ""
+    if args:
+        sequence += a 
+        for word in args:
+            sequence += " " + word
+        return sequence
+    else:
+        return a
 
-print("hello")
+print(merge("hey", "you", "there"))
